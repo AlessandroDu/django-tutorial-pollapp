@@ -21,7 +21,7 @@ class IndexView(generic.ListView):
 
 class DetailView(generic.DetailView):
     model = Question
-    template_name = "polls/details.html"
+    template_name = "polls/detail.html"
 
     def get_queryset(self):
         """
